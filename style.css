@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+    font-family: sans-serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    color: #ffffff;
+    background-color: #232323;
+    background-image: url(images/pyth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*section{
+    background-color: aqua;
+}*/
+.about-title{
+ 
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    font-size: 30px;
+    background-image: url(images/intell2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    height:300vh;
+    display: flex;
+   
+    
+
+    
+}
+.about-pages{
+    width: 50%;
+    
+}
+.about-pages div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.about-pages div>p{
+   width: 80%;
+   font-size: 18px;
+   line-height: 30px;
+}
+
+.about-pages div:nth-child(1){
+    background-color: #45ff56;
+}
+.about-pages div:nth-child(2){
+    background-color: #45ffff;
+}
+.about-pages div:nth-child(3){
+    background-color: #ffff56;
+}
+
+footer{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000;
+    color: white;
+}
+
+.headings{
+    
+    position: sticky;
+    top: 0;
+}
+
+.box{
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+.navigation{
+    height: 60px;
+    background-color: #232323;
+    /*justify-content: space-around;*/
+}
+.heading{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: #ff6600;
+}
+span{
+    color: #ffffff;
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+a:hover{
+    color: #ff6600;
+    transition: 0.5s;
+}
+
+.login{
+    padding: 30px;
+    margin: 50px;
+    padding-top: 200vh;
+   
+}
